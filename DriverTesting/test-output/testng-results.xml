@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11642" started-at="2018-06-15T04:54:45Z" finished-at="2018-06-15T04:54:57Z">
+  <suite name="Default suite" duration-ms="13788" started-at="2018-06-15T05:03:12Z" finished-at="2018-06-15T05:03:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11642" started-at="2018-06-15T04:54:45Z" finished-at="2018-06-15T04:54:57Z">
+    <test name="Default test" duration-ms="13788" started-at="2018-06-15T05:03:12Z" finished-at="2018-06-15T05:03:26Z">
       <class name="DriverTesting.DriverTesting.HomePageLoginTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="beforeMethod" is-config="true" duration-ms="8322" started-at="2018-06-15T04:54:45Z" finished-at="2018-06-15T04:54:53Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="beforeMethod" is-config="true" duration-ms="9233" started-at="2018-06-15T05:03:12Z" finished-at="2018-06-15T05:03:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="homePageLogin()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="homePageLogin" duration-ms="3287" started-at="2018-06-15T04:54:53Z" finished-at="2018-06-15T04:54:57Z">
+        <test-method status="PASS" signature="homePageLogin()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="homePageLogin" duration-ms="4522" started-at="2018-06-15T05:03:21Z" finished-at="2018-06-15T05:03:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="afterMethod" is-config="true" duration-ms="12" started-at="2018-06-15T04:54:57Z" finished-at="2018-06-15T04:54:57Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="afterMethod" is-config="true" duration-ms="12" started-at="2018-06-15T05:03:26Z" finished-at="2018-06-15T05:03:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

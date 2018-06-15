@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import DriverTesting.Base.BaseClass;
 import DriverTesting.Constants.AssertionConstants;
 import DriverTesting.Constants.XpathConstants;
-import org.openqa.selenium.By;
+import DriverTesting.util.TextBoxUtils;
 
 public class HomePageLoginTest  extends BaseClass{
 	
@@ -16,11 +16,15 @@ public class HomePageLoginTest  extends BaseClass{
 		//inspectAndClickOnElement(XpathConstants.USER_ID_XPATH);
 
 		//driver.findElement(By.xpath(XpathConstants.USER_ID_XPATH)).click();
-		driver.findElement(By.xpath(XpathConstants.USER_ID_XPATH)).clear();
-		driver.findElement(By.xpath(XpathConstants.USER_ID_XPATH)).sendKeys(AssertionConstants.USER_ID);
+		TextBoxUtils textBoxUtils=getTextBoxUtils();
+		textBoxUtils.enteringValuesUsingSendkeys(inspectElement(XpathConstants.USER_ID_XPATH), AssertionConstants.USER_ID);
+		//driver.findElement(By.xpath(XpathConstants.USER_ID_XPATH)).clear();
+		//driver.findElement(By.xpath(XpathConstants.USER_ID_XPATH)).sendKeys(AssertionConstants.USER_ID);
 
-		driver.findElement(By.xpath(XpathConstants.USER_PASSWORD_XPATH)).clear();
-		driver.findElement(By.xpath(XpathConstants.USER_PASSWORD_XPATH)).sendKeys(AssertionConstants.USER_PASSWORD);
+		//driver.findElement(By.xpath(XpathConstants.USER_PASSWORD_XPATH)).clear();
+		//driver.findElement(By.xpath(XpathConstants.USER_PASSWORD_XPATH)).sendKeys(AssertionConstants.USER_PASSWORD);
+
+		textBoxUtils.enteringValuesUsingSendkeys(inspectElement(XpathConstants.USER_PASSWORD_XPATH), AssertionConstants.USER_PASSWORD);
 
 		inspectAndClickOnElement(XpathConstants.LOGIN_SUBMIT_XPATH);
 
