@@ -5,8 +5,8 @@
     <classes>
       <class name="DriverTesting.DriverTesting.HomePageLoginTest">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="preConditions"/>
+          <include name="closeBrowser"/>
           <include name="homePageLogin"/>
         </methods>
       </class> <!-- DriverTesting.DriverTesting.HomePageLoginTest -->

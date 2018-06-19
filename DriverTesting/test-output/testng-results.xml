@@ -2,23 +2,42 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13788" started-at="2018-06-15T05:03:12Z" finished-at="2018-06-15T05:03:26Z">
+  <suite name="Default suite" duration-ms="128109" started-at="2018-06-19T02:16:24Z" finished-at="2018-06-19T02:18:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13788" started-at="2018-06-15T05:03:12Z" finished-at="2018-06-15T05:03:26Z">
+    <test name="Default test" duration-ms="128109" started-at="2018-06-19T02:16:24Z" finished-at="2018-06-19T02:18:33Z">
       <class name="DriverTesting.DriverTesting.HomePageLoginTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="beforeMethod" is-config="true" duration-ms="9233" started-at="2018-06-15T05:03:12Z" finished-at="2018-06-15T05:03:21Z">
+        <test-method status="PASS" signature="preConditions(java.lang.String)[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@1c1bbc4e]" name="preConditions" is-config="true" duration-ms="3613" started-at="2018-06-19T02:18:24Z" finished-at="2018-06-19T02:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="homePageLogin()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="homePageLogin" duration-ms="4522" started-at="2018-06-15T05:03:21Z" finished-at="2018-06-15T05:03:26Z">
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="homePageLogin(java.lang.String, java.lang.String)[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@1c1bbc4e]" name="homePageLogin" duration-ms="4518" started-at="2018-06-19T02:18:28Z" data-provider="getLogInDataProvider" finished-at="2018-06-19T02:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@12f41634]" name="afterMethod" is-config="true" duration-ms="12" started-at="2018-06-15T05:03:26Z" finished-at="2018-06-15T05:03:26Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:DriverTesting.DriverTesting.HomePageLoginTest@1c1bbc4e]" name="closeBrowser" is-config="true" duration-ms="166" started-at="2018-06-19T02:18:32Z" finished-at="2018-06-19T02:18:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- closeBrowser -->
       </class> <!-- DriverTesting.DriverTesting.HomePageLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
